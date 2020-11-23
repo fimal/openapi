@@ -275,7 +275,7 @@ func (a *DefaultApiService) UeAuthenticationsPost(ctx context.Context, authentic
 		localVarHeaderParams["Accept"] = localVarHTTPHeaderAccept
 	}
 
-	//localVarHeaderParams["kwaf-suci"] = ""
+	localVarHeaderParams["kwaf-suci"] = "FE80::0208931234000000000003"
 
 
 	// body params
